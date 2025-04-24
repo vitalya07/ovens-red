@@ -1,0 +1,33 @@
+@media(max-width: 1500px) {
+    .header {
+        &__wrapper {
+            gap: 10px;
+        }
+        &__logo {
+            width: 170px;
+            height: auto;
+        }
+        &__list {
+            gap: 10px;
+            &-link {
+                font-size: 12px;
+            }
+        }
+        &__msg {
+            width: 24px;
+            height: auto;
+        }
+        &__tel {
+            font-size: 12px;
+        }
+        &__btn {
+            font-size: 12px;
+        }
+        &__coal {
+            font-size: 12px;
+            width: 60px;
+            height: 30px;
+        }
+
+    }
+}

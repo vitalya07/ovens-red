@@ -1,0 +1,89 @@
+.header {
+    padding: 50px 130px 21px 130px;
+    background-color: #1c1b1b;
+    position: fixed;
+    width: 100%;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+    }
+    &__logo {
+        width: 225px;
+        height: 65px;
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 25px;
+        &-link {
+            color: #fff;
+            font-family: "Lora", sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+            transition: all .4s ease;
+            &:hover {
+                color: $colorRed;
+            }
+        }        
+    }
+    &__coal {
+        background-color: #d9d9d9;
+        border: 2px solid $colorRed;
+        border-radius: 10px;
+        font-family: "Lora", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 30px;
+    }
+    &__msgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    &__msg {
+        width: 32px;
+        height: 25px;
+        display: inline-block;
+    }
+    &__tel {
+        font-family: "Lora", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: $purpleColor;
+    }
+    &__btn {
+        max-width: 194px;
+        height: 55px;
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid $colorRed;
+        border-radius: 10px;
+        padding: 10px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Lora", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
